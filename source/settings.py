@@ -14,7 +14,7 @@ __MALROWE_ENCRYPTION_METHODS = {
 MALROWE = {
     "name": "Malrowe",
     "description": "A encryptor/decryptor tool called Malrowe",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "private": False,
     "author": {
         "name": "leoarayav",

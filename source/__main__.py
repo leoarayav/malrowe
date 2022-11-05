@@ -1,5 +1,5 @@
 from core import Core
 
-malrowe = Core()
-
-malrowe.initialize()
+if __name__ == '__main__':
+    malrowe = Core()
+    malrowe.initialize()

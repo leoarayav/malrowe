@@ -8,7 +8,9 @@ class Text:
         '<red>': colorama.Fore.RED,
         '<blue>': colorama.Fore.BLUE,
         '<green>': colorama.Fore.GREEN,
-        '<white>': colorama.Fore.WHITE
+        '<white>': colorama.Fore.WHITE,
+        '<cyan>': colorama.Fore.CYAN,
+        '<lwhite>': colorama.Fore.LIGHTWHITE_EX
     }
 
     def __init__(self, output: str, parse: str = True) -> None:

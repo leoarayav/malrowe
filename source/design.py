@@ -1,9 +1,6 @@
 from settings import MALROWE
-from text import Text
 
 class Design:
-
-    Text.init()
 
     LOGO = f'''
 
@@ -17,6 +14,5 @@ class Design:
     '''
 
     BANNER = f'''
-    {LOGO}
         Developed by @{MALROWE["author"]["name"]} ensuring your privacity and securing your keys.
     '''
